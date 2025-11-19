@@ -1,0 +1,44 @@
+{ pkgs, ... }:
+
+{
+  home.packages = with pkgs; [
+    nodejs
+    yarn
+    gh
+    brightnessctl
+    vim
+    vscode
+    gnome-text-editor
+    wget
+    btop
+    brave
+    rofi-wayland
+    wlogout
+    wl-clipboard
+    wl-clip-persist
+    solaar
+    swayidle
+    swayosd
+    clipse
+    redshift
+    networkmanagerapplet
+    gnome-calendar
+    gnome-system-monitor
+    gnome-disk-utility
+    pamixer
+    pavucontrol
+    grim
+    slurp
+    nautilus
+    gnome-calculator
+    swappy
+    file-roller
+    telegram-desktop
+    wasistlos
+    libreoffice-fresh
+    hunspell
+    papers
+    qbittorrent
+    thunderbird
+  ];
+}
