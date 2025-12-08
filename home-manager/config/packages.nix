@@ -40,5 +40,6 @@
     papers
     qbittorrent
     thunderbird
+    lutris
   ];
 }
