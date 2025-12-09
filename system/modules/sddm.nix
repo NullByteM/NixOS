@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "NullByteM";
     repo = "simple-sddm-2";
     rev = "main";
-    sha256 = "";
+    sha256 = "sha256-2ji8kB1s9oIIy5O2cranH6tp9gAR0GUXnKMETWcEs80=";
   };
 
   installPhase = ''
