@@ -1,6 +1,6 @@
 {
   networking = {
-    hostName = "x1nf3ct-PC";
+    hostName = "NullByteM-PC";
     networkmanager.enable = true;
     firewall.enable = false;
   };

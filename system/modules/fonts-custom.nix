@@ -5,10 +5,10 @@ stdenv.mkDerivation {
   version = "1.0";
 
   src = fetchFromGitHub {
-    owner = "x1nf3ct";
+    owner = "NullByteM";
     repo = "fonts-custom";
     rev = "main";
-    sha256 = "sha256-Qlm9edsWu6k3a9PctD0th6rsIxPb+W9l4eH3ZWq+vHk=";
+    sha256 = "";
   };
 
   installPhase = ''

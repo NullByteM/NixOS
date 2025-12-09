@@ -12,7 +12,7 @@
     wget
     btop
     brave
-    rofi-wayland
+    rofi
     wlogout
     wl-clipboard
     wl-clip-persist

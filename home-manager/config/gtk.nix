@@ -14,11 +14,11 @@
     font.size = 10;
     gtk3.bookmarks = [
       "file:///mnt/Data Data"
-      "file:///home/x1nf3ct/Documents Documents"
-      "file:///home/x1nf3ct/Downloads Downloads"
-      "file:///home/x1nf3ct/Music Music"
-      "file:///home/x1nf3ct/Pictures Pictures"
-      "file:///home/x1nf3ct/Videos Videos"
+      "file:///home/NullByteM/Documents Documents"
+      "file:///home/NullByteM/Downloads Downloads"
+      "file:///home/NullByteM/Music Music"
+      "file:///home/NullByteM/Pictures Pictures"
+      "file:///home/NullByteM/Videos Videos"
     ];
     gtk2.extraConfig = ''
       gtk-toolbar-style = GTK_TOOLBAR_ICONS
