@@ -6,7 +6,7 @@
       add_newline = true;
       format = ''[](#9A348E)$username[](bg:#DA627D fg:#9A348E)$directory[](fg:#DA627D bg:#FCA17D)$git_branch$git_status[](fg:#FCA17D bg:#86BBD8)$c$elixir$elm$golang$gradle$haskell$java$julia$nodejs$python$nim$rust$scala[](fg:#86BBD8 bg:#06969A)$docker_context[](fg:#06969A bg:#33658A)$time[ ](fg:#33658A)'';
       command_timeout = 5000;
-      scan_timeout = 10;
+      scan_timeout = 5000;
       username = {
         show_always = true;
         style_user = "bg:#9A348E";

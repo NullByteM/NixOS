@@ -11,7 +11,7 @@
     gnome-text-editor
     wget
     btop
-    brave
+    firefox
     rofi
     wlogout
     wl-clipboard

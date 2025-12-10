@@ -8,6 +8,8 @@
   };
   security.polkit.enable = true;
   security.apparmor.enable = true;
+  security.pam.services.login.enableGnomeKeyring = true;
+  security.pam.services.sddm.enableGnomeKeyring = true;
   systemd = {
     user.services.polkit-gnome-authentication-agent-1 = {
       description = "polkit-gnome-authentication-agent-1";

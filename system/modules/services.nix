@@ -1,4 +1,4 @@
-{ lib, pkgs, ... }:
+{ pkgs, ... }:
 
 {
   services = {
@@ -12,12 +12,14 @@
     blueman.enable = true;
     libinput.enable = true;
     displayManager = {
+      autoLogin = {
+        enable = true;
+        user = "NullByteM";
+      };
       sddm = {
         enable = true;
         wayland.enable = true;
         autoNumlock = true;
-        package = pkgs.kdePackages.sddm;
-        theme = "simple-sddm-2";
       };
     };
   };

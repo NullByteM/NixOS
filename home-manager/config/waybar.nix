@@ -92,7 +92,7 @@
       @define-color textcolor3 #000000;
       @define-color iconcolor #000000;
       * {
-        font-family: "JetBrains Mono", "Font Awesome 6 Free Solid";
+        font-family: "JetBrains Mono", "Font Awesome 7 Free Solid";
         font-weight: bold;
         min-height: 0;
       }

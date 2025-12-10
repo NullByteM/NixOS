@@ -7,7 +7,7 @@
       "$mod" = "SUPER";
       monitor = ",preferred,auto,auto";
       exec-once = [
-        # "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+        "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
         "dunst"
         "nm-applet"
         "waybar"
@@ -100,7 +100,7 @@
         ];
       };
       bind = [
-        "$mod, F, exec, brave"
+        "$mod, F, exec, firefox"
         "$mod, Return, exec, kitty"
         "$mod, Q, killactive"
         "$mod, M, exit"
