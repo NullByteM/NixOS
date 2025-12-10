@@ -4,7 +4,6 @@
   home.packages = with pkgs; [
     nodejs
     yarn
-    gh
     brightnessctl
     vim
     vscode
@@ -40,6 +39,5 @@
     papers
     qbittorrent
     thunderbird
-    lutris
   ];
 }
