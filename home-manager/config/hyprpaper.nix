@@ -6,8 +6,8 @@
         ipc = "on";
         splash = false;
         splash_offset = 2.0;
-        preload = [ "/mnt/Data/Virtual.Machines/wallpaper/sunset-10.jpg" ];
-        wallpaper = [ "eDP-1,/mnt/Data/Virtual.Machines/wallpaper/sunset-10.jpg" ];
+        preload = [ "/mnt/Data/Virtual.Machines/wallpaper/3d-tech.jpg" ];
+        wallpaper = [ "eDP-1,/mnt/Data/Virtual.Machines/wallpaper/3d-tech.jpg" ];
       };
     };
     hyprpolkitagent.enable = true;
