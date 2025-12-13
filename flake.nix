@@ -21,7 +21,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.NullByteM = import ./home-manager/home.nix;
+            home-manager.users.nullbytem = import ./home-manager/home.nix;
           }
         ];
       };

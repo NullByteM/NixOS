@@ -9,5 +9,5 @@
       options = [ "defaults" "noatime" "barrier=1" "data=ordered" "errors=remount-ro" "commit=300" "nofail" ];
     };
   };
-  systemd.tmpfiles.rules = [ "d /mnt/Data 0775 NullByteM users -" ];
+  systemd.tmpfiles.rules = [ "d /mnt/Data 0775 nullbytem users -" ];
 }

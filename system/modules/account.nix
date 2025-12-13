@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 {
-  users.users.NullByteM = {
+  users.users.nullbytem = {
     isNormalUser = true;
     initialPassword = "password";
     extraGroups = [ "wheel" "networkmanager" "audio" "video" "libvirtd" ];
