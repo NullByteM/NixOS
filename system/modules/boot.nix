@@ -16,6 +16,8 @@
       "pti=on"
       "init_on_alloc=1"
       "init_on_free=1"
+      "intel_iommu=on"
+      "vfio-pci.ids=1002:67b0,1002:aac8,144d:a80a"
     ];
     tmp.cleanOnBoot = true;
     supportedFilesystems = [ "ntfs" "btrfs" "ext4" ];
@@ -37,6 +39,9 @@
       "kvm-intel"
       "overlay"
       "tun"
+      "vfio_pci"
+      "vfio"
+      "vfio_iommu_type1"
     ];
     kernel.sysctl = {
       "net.ipv4.tcp_congestion_control" = "bbr";

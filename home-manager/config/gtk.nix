@@ -6,6 +6,8 @@
     cursorTheme.package = pkgs.bibata-cursors;
     cursorTheme.name = "Bibata-Modern-Classic";
     cursorTheme.size = 16;
+    theme.package = pkgs.gnome-themes-extra;
+    theme.name = "Adwaita-dark";
     iconTheme.package = pkgs.papirus-icon-theme;
     iconTheme.name = "Papirus-Dark";
     font.name = "Sans";
@@ -18,10 +20,44 @@
       "file:///home/nullbytem/Pictures Pictures"
       "file:///home/nullbytem/Videos Videos"
     ];
+    gtk2.extraConfig = ''
+      gtk-toolbar-style = GTK_TOOLBAR_ICONS
+      gtk-toolbar-icon-size = GTK_ICON_SIZE_LARGE_TOOLBAR
+      gtk-button-images = 0
+      gtk-menu-images = 0
+      gtk-enable-event-sounds = 1
+      gtk-enable-input-feedback-sounds = 0
+      gtk-xft-antialias = 1
+      gtk-xft-hinting = 1
+      gtk-xft-hintstyle = "hintslight"
+      gtk-xft-rgba = "rgb"
+    '';
     gtk3.extraConfig = {
+      gtk-toolbar-style = "GTK_TOOLBAR_ICONS";
+      gtk-toolbar-icon-size = "GTK_ICON_SIZE_LARGE_TOOLBAR";
+      gtk-button-images = 0;
+      gtk-menu-images = 0;
+      gtk-enable-event-sounds = 1;
+      gtk-enable-input-feedback-sounds = 0;
+      gtk-xft-antialias = 1;
+      gtk-xft-hinting = 1;
+      gtk-xft-hintstyle = "hintslight";
+      gtk-xft-rgba = "rgb";
+      gtk-decoration-layout = "appmenu:none";
       gtk-application-prefer-dark-theme = 1;
     };
     gtk4.extraConfig = {
+      gtk-toolbar-style = "GTK_TOOLBAR_ICONS";
+      gtk-toolbar-icon-size = "GTK_ICON_SIZE_LARGE_TOOLBAR";
+      gtk-button-images = 0;
+      gtk-menu-images = 0;
+      gtk-enable-event-sounds = 1;
+      gtk-enable-input-feedback-sounds = 0;
+      gtk-xft-antialias = 1;
+      gtk-xft-hinting = 1;
+      gtk-xft-hintstyle = "hintslight";
+      gtk-xft-rgba = "rgb";
+      gtk-decoration-layout = "appmenu:none";
       gtk-application-prefer-dark-theme = 1;
     };
   };

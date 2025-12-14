@@ -6,11 +6,9 @@
       enable = true;
       qemu = {
         package = pkgs.qemu_kvm;
-        runAsRoot = false;
+        runAsRoot = true;
         vhostUserPackages = with pkgs; [ virtiofsd ];
-        swtpm = {
-          enable = true;
-        };
+        swtpm.enable = true;
       };
     };
     spiceUSBRedirection.enable = true;

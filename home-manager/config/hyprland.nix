@@ -100,7 +100,7 @@
         ];
       };
       bind = [
-        "$mod, F, exec, brave"
+        "$mod, F, exec, firefox"
         "$mod, Return, exec, kitty"
         "$mod, Q, killactive"
         "$mod, M, exit"
