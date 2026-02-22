@@ -22,10 +22,15 @@
       env = [
         "XCURSOR_SIZE,16"
         "LIBVA_DRIVER_NAME,nvidia"
-        "__GLX_VENDOR_LIBIRARY_NAME,nvidia"
+        "XDG_SESSION_TYPE,wayland"
+        "GBM_BACKEND,nvidia-drm"
+        "__GLX_VENDOR_LIBRARY_NAME,nvidia"
         "NVD_BACKEND,direct"
         "ELECTRON_OZONE_PLATFORM_HINT,auto"
       ];
+      cursor = {
+        no_hardware_cursors = true
+      };
       input = {
         kb_layout = "us,ara";
         kb_variant = ",qwerty";
@@ -100,7 +105,7 @@
         ];
       };
       bind = [
-        "$mod, F, exec, firefox"
+        "$mod, F, exec, brave"
         "$mod, Return, exec, kitty"
         "$mod, Q, killactive"
         "$mod, M, exit"

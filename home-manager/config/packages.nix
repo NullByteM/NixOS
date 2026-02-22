@@ -10,7 +10,7 @@
     gnome-text-editor
     wget
     btop
-    firefox
+    brave
     rofi
     wlogout
     wl-clipboard
@@ -37,6 +37,7 @@
     libreoffice-fresh
     hunspell
     papers
+    foliate
     qbittorrent
     thunderbird
   ];
