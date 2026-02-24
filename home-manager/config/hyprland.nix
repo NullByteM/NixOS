@@ -29,7 +29,7 @@
         "ELECTRON_OZONE_PLATFORM_HINT,auto"
       ];
       cursor = {
-        no_hardware_cursors = true
+        no_hardware_cursors = true;
       };
       input = {
         kb_layout = "us,ara";
