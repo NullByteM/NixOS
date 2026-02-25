@@ -37,6 +37,7 @@
     papers
     foliate
     qbittorrent
+    obsidian
     lutris
   ];
 }
